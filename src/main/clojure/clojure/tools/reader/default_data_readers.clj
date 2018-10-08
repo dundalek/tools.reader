@@ -9,8 +9,11 @@
 ;;; copied from clojure.instant and clojure.uuid ;;;
 
 (ns ^:skip-wiki clojure.tools.reader.default-data-readers
-  (:import [java.util Calendar Date GregorianCalendar TimeZone]
-           [java.sql Timestamp]))
+  (:import java.util.Calendar
+           java.util.Date
+           java.util.GregorianCalendar
+           java.util.TimeZone
+           java.sql.Timestamp))
 
 ;;; clojure.instant ;;;
 
